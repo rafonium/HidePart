@@ -18,8 +18,7 @@ A lightweight Kerbal Space Program (KSP) mod that streamlines the Editor (VAB/SP
 ## Requirements
 
 - Kerbal Space Program 1.12.x (may work on older versions but untested).
-- No external dependencies (Harmony is NOT required).
-
+- No external dependencies
 ## Credits
 
 - Developed by Rafonium.
