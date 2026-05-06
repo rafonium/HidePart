@@ -22,7 +22,7 @@ A lightweight Kerbal Space Program (KSP) mod that streamlines the Editor (VAB/SP
 
 ## Credits
 
-- Developed by [USER].
+- Developed by Rafonium.
 - Inspired by filtering logic in "Janitor's Closet".
 
 ## License
