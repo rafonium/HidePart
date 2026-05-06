@@ -21,7 +21,6 @@ A lightweight Kerbal Space Program (KSP) mod that streamlines the Editor (VAB/SP
 - No external dependencies
 ## Credits
 
-- Developed by Rafonium.
 - Inspired by filtering logic in "Janitor's Closet".
 
 ## License
