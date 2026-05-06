@@ -1,6 +1,6 @@
 # HidePart
 
-A lightweight Kerbal Space Program (KSP) mod that streamlines the Editor (VAB/SPH) by hiding parts that have not yet been purchased in Career mode.
+A lightweight Kerbal Space Program (KSP) mod that streamlines the Editor (VAB/SPH) by hiding parts that have not yet been purchased in RND building.
 
 ## Installation
 
