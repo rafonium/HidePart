@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>C:\Game\KSP\Kerbal Space beyond lite 4\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>C:\Game\KSP\Kerbal Space beyond lite 4\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>C:\Game\KSP\Kerbal Space beyond lite 4\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="Assembly-CSharp-firstpass">
+        <HintPath>C:\Game\KSP\Kerbal Space beyond lite 4\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Game\KSP\Kerbal Space beyond lite 4\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+
+    </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="C:\Game\KSP\Kerbal Space beyond lite 4\GameData\HidePart" />
+  </Target>
+  <ItemGroup>
+    <Compile Remove="JanitorsCloset-master\**" />
+  </ItemGroup>
+</Project>
+

@@ -1,0 +1,21 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Reference projects / temporary files
+JanitorsCloset-master/
+*.zip
+*.rar
+
+# KSP specific
+*.dll.mdb
+*.pdb
+Thumbs.db
